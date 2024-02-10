@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src=".js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <style>
+html, body{
+    padding: 0px ;
+    border:0px ; 
+    margin:0px;
+    width:100%;
+    height:100%;
+   }
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+.full-width-image {
+    max-width: calc(100% - 80px);
+    height: auto;
+    display: block;
+    margin: 30px auto; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: black;
+    background-color: lightgray;
+  }
+  body {
+    font-family: Montserrat, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+.title {
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 61px;
+    letter-spacing: 0px;
+    color: #F95738;
+    font-weight: 100;
+    line-height: 75.3px;
+}
+.subtitle {
+    font-family: "Raleway";
+    font-weight: 5000;
+    text-align: center;
+    color: #F95738;
+    font-size: 46.1px;
+    line-height: 44.6px;
+}
+.intro {
+    text-align: center;
+    font-weight: 1;
+    font-size: 21px;
+    line-height: 38.1px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #F95738;
+    font-family: "Raleway";
+    font-size: 30px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Change display to block to allow center alignment */
+    margin: 4px auto; /* Set margin to auto to horizontally center the button */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.mapbutton:hover {
+    background-color: #f59653;
+    color: white;
+}
+.map {
+    float: center;
+}
+.mapbox {
+    float: left;
+    background-color: #F95738;
+    padding: 150px;
+    color: white;
+    height: 205px;
+    margin: 50px;
+}
+html {
+	scroll-behavior: smooth;
+}
+.paracant {
+    float: right;
+    padding: 1px;
+}
+.cantonese {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 200px; /* Adjust image width as needed */
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+.text {
+    text-align: right; /* Align text to the right */
+    flex: 1; /* Allow text to fill remaining space */
+}
+#cantonesetext {
+	/* Font & Text */
+	font-family: Raleway;
+	font-size: 200px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	letter-spacing: normal;
+	line-height: 55.4083px;
+	text-decoration: none solid rgb(0, 0, 0);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	white-space: pre-wrap;
+	word-spacing: 0px;
+
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(0, 0, 0);
+    font-weight: 100;
+
+	/* Box */
+	height: 166.219px;
+	width: 477.302px;
+	border: 0px none rgb(0, 0, 0);
+	border-top: 0px none rgb(0, 0, 0);
+	border-right: 0px none rgb(0, 0, 0);
+	border-bottom: 0px none rgb(0, 0, 0);
+	border-left: 0px none rgb(0, 0, 0);
+	margin: 0;
+	padding: 0px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+
+	/* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+
+	/* Effects */
+	transform: none;
+	transition: all 0s ease 0s;
+	outline: rgb(255, 0, 0) dashed 0.666667px;
+	outline-offset: 0px;
+	box-sizing: content-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: break-word;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.pic {
+    margin: 10px;
+    width: 1000px;
+    height: auto;
+}
+.cantonese {
+    background-color: #f2d21c; /* Background color */
+    padding: 0; /* Add padding to create space between the content and the background */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+    </style>
+
+</head>
+<body>
+
+    <img src="https://lh3.googleusercontent.com/pw/ABLVV85L-h0fLrXy5rKkXwezad4LIVIapjndkjLVC39eg6NYUw3WoJHgayvP5yeel2GS49QD1OHWiwS9uqLduOv-Hht645CPb3iJArgfaDjZpUxU5YQpnM1aFTrOilFxvcvE_2w3cCtWK5bDgbJS_UZ48QNnTxY9pVjmnveBi8dAFul5Z9q2CBiT8t-jGBDMoD1Nr4Hqb6w_b8bmdoXngEP5iR6kPBaq46Qq_k5ub6gvCwRBUeRcsCtW6LIbHYYXQFqvC81hRE-jGdzW_yJXJ2A8Nn9DnWIEdhevi6QMYqdtHeaaOGOHyEfAyqZqpanxVpJJZmwA_Hj0IfdmJ-C3-lvw6hkedtHlsTmeu2SGjn-cmWtRkyp384TrRsvQlxWDx4-219cP8xjqeoHb_YKx7UTTYtQH27arITECXmx7kqmn18MKrF_ZA9rZTQ9vQjVhI4puZ-my5vGMYqIOXKAtaJFZ6WrSMyqCGcakSuzjhxADdrFWe6T-rit2LSAJVxUVaWAjIkZDPHCtPm0zdUOeO0XpeRJCfhcSWql1niL-g-W5BE6a1zW_otaacG75gHGIWaAtJ3qu0J3LWGyi9BWWZ0NTZvwbrB9bpUxv69ST6dZ8vcha-jf1E7-kORBC1L_GDJHfZVBNSBEwfS5P5DUpnzGeKRfSIs9sGHAgp5js6NFtZEjiSG3ULIhkjCNOiUrrkzXOCp5e1aTpF4-vz2p48M58qc1A_p4pri3gtGbcKbL_Bgkk7V7TDaBI_INGTnd2BBQW8NW-6gdHj4b_rADCWmp94eD7CMYwmbmI2wPS_KMBX5JeuY-rMOCfRw23hHu5XhQNC9DuoupYqyEezySeV92lOTm1lxvCTgOL0dsb4wewgbWeclgpXI3OuXP6_SBFYfHLXGkA1d6qS9hIXKwWEhvnG7y0FOs250n9b2Alj2abB6Nzrge5KhTAEtRDcII=w526-h126-s-no-gm?authuser=0" alt="Sunshine House" class="centered-image">
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    <img src="https://lh3.googleusercontent.com/pw/ABLVV851gRouMpU01FOwK7DnZi2bW6VSjkodX0S8niHssZUctHFGKHimC2UuEoSOtFGbcwLMQGlUh0TfU0A5_2LiFyehgejHwK2IKYbo0fNQXgYROGQXEMtfCyX0Ijpgr-W0vuOB0X7O7v7-6F5KnJHFt3Rr8uct3TwUI8PZxQx_IWx2Uqo-j_5yaJbsl-i53AU7AAF3YvtGy5eQl4nePFyFvnrYpxPM_CdJbTZKhvma2408k3Iprctna1USzwSTidN4fWSy8bnW6G_tCiyw-yEES54WXzNU0x1CC19AfHptxIyuDMEGenBbWy-FxnXOLkQsVw4bUG7tvvuswmtn3FRqgcffY5fDhygL2qmRQg92_38i4Kq3Jodnx9QBx4nNVqTfC3qgWcGAcOFcr6DmWKVSDnDHdx_PJUeINfZIjOyUEhweRoOar1LYOjudhWyh3fixx6-eAjegDOmAhNJvGp0byhmqsRNiqy9I5Xf_w1i2vPIRvz7YpUXzxH5FbTbvIH9v_SPuKOUqTKkvQtAPYJNIcaWMRlSf_OF2J6NVgXSLbsGhRSsOE92Q0XkDKUBBTjbREvUMIWjbaXsVr5PYC0BunmSIGN0I2Sw2OpHbjqtROA1qrobB5PI3deQPwhgopD4clilFcU8BcHm3qZFRxkEswgzymruvPVzvN-tzZ624hWW_hFzTVJJDXGZjXzbIMFksO23QrweJJW-TGEm2V-5669Emv9IRkaN29Bg7wJwOhTwrIivyrAM3CWLg2oy0lWOidl-7QXuW94Muh7f1F2h_DnQUaXoGQv9-GmLhdWQ2atKODPztVCsofgzVW-H5nEPe2TayGoXKBXR-natdEtOI3AabqmvNxNodmD4zTYgeon9dg9VEY6aMwYOsS4cye8he0YbwF-n4yd_0t3vnUha0_-GZ9Zg0xgc0xnhGMZZ-Af5VBUxSOtOI3u38UOkl=w1899-h1068-s-no-gm?authuser=0" class="full-width-image" class="centered-image">
+      <h1 class="title">Sunshine House</h1>
+      <h2 class="subtitle"> Tasty, Fresh, Convenient.</h2>
+      <h3 class="intro">Welcome to Sunshine House, your home for authentic Cantonese specialties delivered with flair. From traditional favorites to innovative delights, savor the flavors of China in every bite.</h3>
+      <p>
+        <a href="#map">
+            <button id ="maplink" class="mapbutton" class="container">Visit Us</button>
+            </a>
+      </p>
+      <div class="cantonese">
+        <img class="pic" src="https://lh3.googleusercontent.com/pw/ABLVV87z6pfX4L-qd3CHb_SLRwoVzQ31o1WZVhTLCfpQZ6bANJcpHAEsBUUZDf8JBRbbxOseUBmfSbo2aWAXcdU711i-BYkFZUK6BQV7BJAR_6hEYr279C3LPKmKYTrMuhd-JO0nXZIvw6Zcg6s-tMDRFp4kntvd9LkigY7g6LY6ehspSeX3P04tgpY6T2Q2HpjN2VDhoLrbXIHzTiobb25FIqBla-cPN54eabtJTEj53xeR2FYN8tn288z5cXvPsj-BJd_to9rZKaI_PIZIS65sR_MyRKC8JjUFf5cRYbwrP4tEliDqVmUZtta7Cfim50dbrPeyzTBoR67ZL5bSp9DlZ8OMso491eDHmbDFL_9uYE5x2E2X8YsENE8HWymCClLj4fiTBLdj8Dq5HHG3cslAsLO6nLge-qMzdtfgpxuXjej30D2zgLSJFnZhqyXSz5F5x7LXEvwBu3IRlJlOgRkgQ0m0s6tVBiBCCy531YlIaL1b4jvYTddwAva1aakf8oBMk9_JdpsayjUDmAJE8gZMU7DmuoEghPOMwR888Dqu5HqExYOpsrElMsmSHO1aa8IgE3JrUz3rRmMtOu_fPrvAhrseKUM_-3IGbZR_S3j987_9wH6Jetyc13MH9fv4iRS1yBfmJc3J475lGPj0cUwTCBaKAh2bohGxY91uzDEpOQHa5SvFcL6TBJQO6_iyw5ti8ThmAgxu7g3QBQGcZpqpnMCU1EYEFAQ_UcHnBlhG4SBusRW76Zu4m1q25j72petsw0H0ay9zZCELPmKPNwQ2NrV8ZuXHd7pDmhog9RULYHVuDcUbnl6Z5FG_6O8Y_c4VNGx3WnZ3rdn2QvswhyrHGj2YDwMuPzYvvRfqORhFjPz-VpWOTVZ7gDfxfnIvfb9-niIjkO8oDEv9A-da4MxC0eYhyCY_7XSQ3D2Ibmkk8-hxDkMg8OREGHXGeLs=w700-h700-s-no-gm?authuser=0">
+       
+       
+        <div class="cantonesetext">
+                <h2 class="cantonese" styles="text-align: center; font-size: 100px;">Delicious Cantonese</h2>
+                <p>Embark on a gastronomic journey through the heart of Canton with our exquisite Cantonese-inspired cuisine at Sunshine House. From the bustling markets of Guangzhou to the tranquil tea houses of Hong Kong, our menu pays homage to the rich tapestry of flavors and culinary traditions of the region.
+        
+Savor the symphony of flavors as you indulge in our signature dishes, meticulously crafted to capture the essence of Cantonese cooking. From succulent roasted meats and crispy fried delights to steaming bowls of comforting noodles and delicate dim sum, each bite is a celebration of freshness, quality ingredients, and time-honored techniques.</p>
+        
+                <p>At Sunshine House, we're committed to delivering an authentic Cantonese dining experience that transcends borders. Whether you're craving the comforting warmth of a hearty bowl of congee or the bold flavors of a spicy Szechuan stir-fry, our diverse menu offers something to tantalize every palate.</p>
+        
+                <p>Join us as we pay homage to the culinary heritage of Canton, where every dish tells a story of tradition, innovation, and the vibrant spirit of the region. Come experience the flavors of Cantonese cuisine like never before at Sunshine House – your passport to an unforgettable dining adventure.</p>
+            </div>
+        </div>
+        
+        </div>
+      <div class="mapfull" id="map">
+        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px; float:right; margin:50px; margin-left: 10px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sunshine+house&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="my-codefor-googlemap" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="get-map-data">Hosting Right Now</a><style>#embed-ded-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+        
+
+        <div class="mapbox">
+    <h1 class="h1map">Visit us:</h1>
+    <p>The Jolly Fryer,</p>
+    <p>47 Water St, </p>
+    <p> Abergele LL22 7SH</p>
+</div>
+    </div>
+</body>
+      </html>
+
